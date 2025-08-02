@@ -6,7 +6,7 @@ class Comminication{
   Comminication({required this.name});
    void printHi(int t){
   for(int i=0;i<t ;i++){
-    print("$i hello $name");
+    print("$i hi $name");
   }
 }
  void printHello({int ? t}){
