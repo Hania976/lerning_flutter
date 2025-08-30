@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 
-class LikeScreen extends StatefulWidget {
-  const LikeScreen({super.key});
+class SearchScreen extends StatefulWidget {
+  const SearchScreen({super.key});
 
   @override
-  State<LikeScreen> createState() => _LikeScreenState();
+  State<SearchScreen> createState() => _SearchScreenState();
 }
 
-class _LikeScreenState extends State<LikeScreen> {
+class _SearchScreenState extends State<SearchScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Like Screen'),
+        title: Text('Search Screen'),
         backgroundColor: const Color.fromARGB(255, 128, 45, 124),
       ),
       body: Center(
         child: Text(
-          'This is the Like Screen',
+          'This is the Search Screen',
           style: TextStyle(
             fontSize: 24,
             color: const Color.fromARGB(255, 127, 28, 122),

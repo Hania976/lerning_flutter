@@ -1,23 +1,23 @@
 import 'package:flutter/material.dart';
 
-class LikeScreen extends StatefulWidget {
-  const LikeScreen({super.key});
+class ProfileScreen extends StatefulWidget {
+  const ProfileScreen({super.key});
 
   @override
-  State<LikeScreen> createState() => _LikeScreenState();
+  State<ProfileScreen> createState() => _ProfileScreenState();
 }
 
-class _LikeScreenState extends State<LikeScreen> {
+class _ProfileScreenState extends State<ProfileScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Like Screen'),
+        title: Text('Profile Screen'),
         backgroundColor: const Color.fromARGB(255, 128, 45, 124),
       ),
       body: Center(
         child: Text(
-          'This is the Like Screen',
+          'This is the Profile Screen',
           style: TextStyle(
             fontSize: 24,
             color: const Color.fromARGB(255, 127, 28, 122),

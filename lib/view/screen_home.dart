@@ -110,6 +110,7 @@ class _ScreenHomeState extends State<ScreenHome> {
                     "Swipe to login ",
                     style: TextStyle(color: Colors.red),
                   ),
+
                   activeThumbColor: Colors.red,
                   activeTrackColor: Colors.grey.shade300,
                   onSwipe: () {

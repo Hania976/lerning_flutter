@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:google_nav_bar/google_nav_bar.dart';
+import 'package:hania/view/home_screen.dart';
 import 'package:hania/view/like_screen.dart';
+import 'package:hania/view/profile_screen.dart';
+import 'package:hania/view/search_screen.dart';
 
 class ScreenResult extends StatefulWidget {
   const ScreenResult({required this.result, required this.name});
@@ -77,8 +80,8 @@ class _ScreenResultState extends State<ScreenResult> {
 }
 
 List<Widget> listScreen = [
-  Scaffold(body: Center(child: Text('Home Screen'))),
+  HomeScreen(),
   LikeScreen(),
-  Scaffold(body: Center(child: Text('Search Screen'))),
-  Scaffold(body: Center(child: Text('Profile Screen'))),
+  SearchScreen(),
+  ProfileScreen(),
 ];
